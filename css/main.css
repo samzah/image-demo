@@ -1,0 +1,41 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+img {
+		width: 100&
+		display: block;
+}
+
+.box {
+	background-color: #3b3a33;
+	padding: 1em;
+}
+
+.btn {
+
+display: inline-block;
+padding: 0.5em 0.75em;
+text-decoration: none;
+border-radius: 10px;
+color: #fff;
+background-color: #a8ae98;
+background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+}
+
+.masthead {
+	background-image: url("../images/logo.svg"), url("../images/masthead-bg.png");
+	background-size: 75px auto, 200px;
+	padding-top: 6em;
+	background-repeat: no-repeat, repeat; /*repeat-x or repeat-y etc*/
+	background-position: center 10px, left top; /*center top left top right bottom right center etc can even use pixels to determine location*/
+	text-align: center;
+}
+
+
+
+
